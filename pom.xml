@@ -14,13 +14,13 @@
     <distributionManagement>
         <repository>
             <id>nikl-repo</id>
-            <url>http://repo.nikl.me/artifactory/public</url>
+            <url>https://repo.repsy.io/mvn/nikl/minecraft</url>
         </repository>
     </distributionManagement>
 
     <scm>
-        <url>https://github.com/NiklasEi/cookieclicker-for-gamebox</url>
-        <connection>git@github.com:NiklasEi/cookieclicker-for-gamebox.git</connection>
+        <url>https://github.com/MLG-Fortress/cookieclicker-for-gamebox</url>
+        <connection>git.com:MLG-Fortress/cookieclicker-for-gamebox.git</connection>
     </scm>
 
     <build>
@@ -65,20 +65,20 @@
 
     <repositories>
         <repository>
-            <id>bukkit-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+            <id>purpur</id>
+            <url>https://repo.purpurmc.org/snapshots</url>
         </repository>
         <repository>
             <id>nikl-repo</id>
-            <url>http://repo.nikl.me/artifactory/public</url>
+            <url>https://repo.repsy.io/mvn/nikl/minecraft</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.14.1-R0.1-SNAPSHOT</version>
+            <groupId>org.purpurmc.purpur</groupId>
+            <artifactId>purpur-api</artifactId>
+            <version>[26.1.2.build,)</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -90,7 +90,7 @@
         <dependency>
             <groupId>me.nikl</groupId>
             <artifactId>calendarevents</artifactId>
-            <version>1.4.2</version>
+            <version>2.4.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -100,6 +100,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <gamebox.version>3.2.0</gamebox.version>
+        <gamebox.version>3.4.0</gamebox.version>
     </properties>
 </project>
